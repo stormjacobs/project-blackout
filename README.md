@@ -26,7 +26,7 @@ $ bower i
 Now you are able to run the project through your web browser with. You can hit the web server generated with the ip given. Usually `http://127.0.0.1:8081`
 
 ```
-polymer serve
+$ polymer serve
 ```
 
 ## Built With
@@ -39,10 +39,11 @@ polymer serve
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
-
 * **Alex Pickering** - *Lead developer*
+* **Storm Jacobs** - *Support developer*
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+## Contributors
+* *Hayden Nicholson*
 
 ## License
 
