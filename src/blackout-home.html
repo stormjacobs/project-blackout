@@ -1,13 +1,12 @@
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="shared-styles.html">
 
-<dom-module id="my-view1">
+<dom-module id="blackout-home">
   <template>
     <style include="shared-styles">
       :host {
+        height: 100%;
         display: block;
-
-        padding: 10px;
       }
     </style>
 
@@ -20,10 +19,10 @@
   </template>
 
   <script>
-    class MyView1 extends Polymer.Element {
-      static get is() { return 'my-view1'; }
+    class BlackoutHome extends Polymer.Element {
+      static get is() { return 'blackout-home'; }
     }
 
-    window.customElements.define(MyView1.is, MyView1);
+    window.customElements.define(BlackoutHome.is, BlackoutHome);
   </script>
 </dom-module>
